@@ -1,0 +1,323 @@
+body,
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.top-bar {
+    background-color: #efefef;
+	box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .08);
+	padding: 1.5rem;
+}
+
+.main-wraps {
+	padding: 5.725rem 0;
+}
+
+.rec-portfolio-head {
+	font-size: 3rem;
+	font-weight: 300;
+	color: #5b5b5b;
+	text-align: center;
+}
+
+.rec-portfolio-head small {
+	font-size: 0.75rem;
+	display: block;
+}
+
+.sip-info span {
+	margin-right: 1.8rem;
+}
+
+.sip-item {
+	font-size: 3rem;
+	font-weight: 400;
+	color: #4d4d4d;
+	line-height: 1;
+}
+
+.sip-item small {
+	font-size: 36%;
+	font-weight: 300;
+	display: block;
+}
+
+.listing {
+	margin-bottom: 2rem;
+}
+
+.plan {
+	border: 1px solid #cfcfcf;
+	margin-bottom: 12px;
+	color: #666666;
+}
+
+.currency {
+	font-size: 0.625rem;
+	font-weight: 400;
+}
+
+.good-plan {
+	background: #14a388;
+	border-left: 7px solid #14a388;
+}
+
+.good-plan .cap-info:before {
+	color: #14a388;
+}
+
+.ok-plan {
+	background: #13bc9c;
+}
+
+.ok-plan .cap-info:before {
+	color: #13bc9c;
+}
+
+.other-plan {
+	background: #425b77;
+}
+
+.other-plan .cap-info:before {
+	color: #425b77;
+}
+
+.plan-info {
+	background: #fff;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.plan-name {
+	font-size: 1.375rem;
+}
+
+.cap-info {
+	padding-left: 2.5rem;
+}
+
+.cap-info:before {
+	content: "\00B7";
+	position: absolute;
+	font-size: 8.125rem;
+	line-height: 1;
+	bottom: -42px;
+	left: 0;
+}
+
+.cap-info,
+.investment-amt {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.plan-amount {
+	font-size: 2.25rem;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+
+
+/*donut chart css*/
+
+.chart-debt, .chart-equity{
+    font-size: 0.2rem;
+    font-weight: 500;
+    fill: #425b77; 
+}
+
+.chart-debt{
+   fill: #12d6b0; 
+}
+
+.figure-key{
+    font-size: 0.625rem;
+    color: #666666;
+    -moz-transform: translateY(-6em);
+    -ms-transform: translateY(-6em);
+    -webkit-transform: translateY(-6em);
+    transform: translateY(-6em);
+}
+
+
+
+
+/*other css*/
+
+
+/*Buttons*/
+
+.btn-invest {
+	font-size: 1.875rem;
+	font-weight: 500;
+	color: #ffffff;
+	background: #12d6b0;
+	border-color: #12d6b0;
+	padding: .875rem 3.5rem;
+	box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .08);
+	margin-left: 2.5rem;
+}
+
+.btn-invest:hover {
+	background: #22efc7;
+	border-color: #12d6b0;
+}
+
+.btn-invest:active {
+	background: #0fa98b;
+}
+
+
+/*icons*/
+
+.sprite {
+	background: url(../images/sprite.png) no-repeat left top;
+	display: inline-block;
+}
+
+.back-ic {
+	width: 38px;
+	height: 38px;
+}
+
+.close-ic {
+	width: 35px;
+	height: 35px;
+	background-position: -56px -57px;
+}
+
+.rs-round {
+	width: 3.125rem;
+	height: 3.625rem;
+}
+
+.calender {
+	width: 3.4375rem;
+	height: 3.625rem;
+}
+
+.rs {
+	width: 2.25rem;
+	height: 3.625rem;
+}
+
+
+/*media queries*/
+
+@media (min-width: 1430px) {
+	.container {
+		max-width: 1460px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.main-wraps {
+		padding: 4rem 0
+	}
+	.rec-portfolio-head {
+		font-size: 2.5rem;
+	}
+	.sip-item {
+		font-size: 2rem;
+	}
+	.plan-amount,
+	.btn-invest {
+		font-size: 1.5rem;
+	}
+	.rs-round {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+	.calender {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+	.rs {
+		width: 1.5rem;
+		height: 2.5rem;
+	}
+	.sip-info span {
+		margin-right: 1rem;
+	}
+	.sprite {
+		background-size: 78px auto;
+	}
+	.back-ic {
+		width: 30px;
+		height: 30px;
+	}
+	.close-ic {
+		width: 28px;
+		height: 28px;
+		background-position: -48px -50px;
+	}
+}
+
+@media (max-width: 567px) {
+	.main-wraps {
+		padding: 2.5rem 0
+	}
+	.rec-portfolio-head {
+		font-size: 2rem;
+	}
+	.sip-item {
+		font-size: 1.6rem;
+	}
+	.cap-info {
+		padding-left: 1.25rem;
+	}
+	.cap-info,
+	.investment-amt {
+		font-size: 0.825rem;
+	}
+	.rs-round {
+		width: 2rem
+	}
+	.calender {
+		width: 1.95rem
+	}
+	.rs {
+		width: 1rem
+	}
+	.sip-info {
+		margin-bottom: 1rem;
+	}
+	.sip-info span {
+		margin-right: .5rem;
+	}
+	.ml-m {
+		margin-left: 2.5rem;
+	}
+	.sip-item small {
+		font-size: 40%;
+	}
+	.sprite {
+		background-size: 75px auto;
+	}
+	.back-ic {
+		width: 30px;
+		height: 30px;
+	}
+	.close-ic {
+		margin-top: 1rem;
+	}
+	.btn-invest {
+		margin-left: 0;
+		padding: .875rem 1rem;
+	}
+	.btn-blk {
+		width: 100%;
+	}
+	.cap-info:before {
+		left: -9px;
+		bottom: -42px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.close-btn {
+		margin-top: 1rem;
+	}
+}
