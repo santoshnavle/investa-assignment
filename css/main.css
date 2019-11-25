@@ -279,13 +279,17 @@ html {
 	.sip-info span {
 		margin-right: 1rem;
 	}
+	
+	
+}
+
+@media (max-width: 1400px) {
 	.figure-key{
 		-moz-transform: translateY(-3.5em);
     		-ms-transform: translateY(-3.5em);
     		-webkit-transform: translateY(-3.5em);
     		transform: translateY(-3.5em);	
-	}
-	
+	}	
 }
 
 @media (max-width: 567px) {
